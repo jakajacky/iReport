@@ -1,0 +1,76 @@
+[
+  {
+    "key": 1,
+    "icon": "&#xe649;",
+    "label": "文本",
+    "state": 1,
+    "name": "Text",
+    "value": "请输入内容",
+    "style": {
+      "font-family": "黑体",
+      "font-size": "14px",
+      "color": "#333",
+      "font-weight": "500",
+      "height": "30px",
+      "width": "300px",
+      "font-style": "normal"
+    },
+    "position": {
+      "top": "50px",
+      "right": "0",
+      "bottom": "0",
+      "left": "0"
+    }
+  },
+  {
+    "key": 2,
+    "icon": "&#xe6ee;",
+    "label": "图片",
+    "name": "Image",
+    "state": 1
+  },
+  {
+    "key": 3,
+    "icon": "&#xe610;",
+    "label": "图表",
+    "name": "EChars",
+    "state": 1,
+    "children":[
+      {
+        "key": 31,
+        "icon": "&#xe79a;",
+        "label": "折线图",
+        "name": "VeLine",
+        "state": 1
+      },
+      {
+        "key": 32,
+        "icon": "&#xe698;",
+        "label": "柱状图",
+        "name": "VeHistogram",
+        "state": 1
+      },
+      {
+        "key": 33,
+        "icon": "&#xe631;",
+        "label": "条形图",
+        "name": "VeBar",
+        "state": 1
+      },
+      {
+        "key": 34,
+        "icon": "&#xe6da;",
+        "label": "饼图",
+        "name": "VePie",
+        "state": 1
+      }
+    ]
+  },
+  {
+    "key": 4,
+    "icon": "&#xe833;",
+    "label": "背景",
+    "name": "Text",
+    "state": 1
+  }
+]

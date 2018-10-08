@@ -1,0 +1,1313 @@
+body {
+  font-size: 18px;
+}
+
+.EditorMod.EditorNY {
+  width: 52.5rem;
+  height: 81rem;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid #e8323f;
+  background: url("http://www.v-data.com.cn/assets/images/NewYearContainbg.jpg") center no-repeat;
+  background-size: cover;
+}
+
+#EditorCaliberInstructions {
+  background: url("http://www.v-data.com.cn/assets/images/NewYearCaliberInstructions.jpg") center no-repeat;
+  -webkit-background-size: 101% 101%;
+  background-size: 101% 101%;
+}
+
+.preview .EditorMod.EditorNY {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: url("http://www.v-data.com.cn/assets/images/NewYearContainbg.jpg") center no-repeat;
+  -webkit-background-size: 101% 101%;
+  background-size: 101% 101%;
+}
+
+.preview .EditorMod-bottom .EditorMod h1 {
+  top: 4rem;
+}
+
+#EditorNY1 {
+  background: url("http://www.v-data.com.cn/assets/images/NewYearbg2.jpg") center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#EditorNY1 .EditorNY1tittle {
+  width: 81%;
+  height: 21%;
+  display: inline-block;
+}
+
+.preview #EditorNY1 .EditorNY1tittle {
+  height: 100%;
+}
+
+.preview .EditorNY.EditorMod #secondary-theme {
+  background: rgba(0, 0, 0, 0);
+  color: #fff;
+  overflow: hidden;
+}
+
+.preview .EditorNY.EditorMod #main-theme {
+  font-size: 6rem;
+  line-height: 14rem;
+  height: 12rem;
+  width: 100%;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.preview #EditorNY1 .EditorNY1tittle2 {
+
+}
+
+.dashedEditorNY1tittle {
+
+}
+
+#EditorNyList {
+  background: url("http://www.v-data.com.cn/assets/images/NewYearList.jpg") center no-repeat;
+  -webkit-background-size: 101% 101%;
+  background-size: 101% 101%;
+  text-align: center;
+}
+
+#EditorNY1 .EditorNY1tittle .el-input__inner {
+  height: 6rem;
+  color: #fff;
+  font-size: 5.1rem;
+  border: 1px dashed #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#EditorNY1 .EditorNY1tittle2 {
+  width: 82%;
+  display: inline-block;
+  /*position: absolute;*/
+  /*top:37%;*/
+  /*left:50%;*/
+  /*-webkit-transform: translateX(-50%);*/
+  /*-moz-transform: translateX(-50%);*/
+  /*-ms-transform: translateX(-50%);*/
+  /*-o-transform: translateX(-50%);*/
+  /*transform: translateX(-50%);*/
+  /*box-sizing: border-box;*/
+}
+
+.dashedEditorNY1tittle2 {
+
+}
+
+#EditorNY1 .EditorNY1tittle2 .el-input__inner {
+  height: 6rem;
+  color: #fff;
+  font-size: 4rem;
+  margin-top: 2rem;
+  border: 1px dashed #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+  width: 80%;
+  /*margin-left: 4rem;*/
+}
+
+.EditorNY h1 {
+  width: 30.5rem;
+  position: absolute;
+  left: 50%;
+  top: 2.9rem;
+  font-size: 2.8rem;
+  margin-left: -15.25rem;
+}
+
+.dashedEditorMod h1 {
+  z-index: 1;
+}
+
+.EditorNY h1 .el-input__inner {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+  text-align: center;
+  border: none;
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: -0.2rem;
+}
+
+.EditorNy1Vice {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.EditorNy1Vice > div {
+  display: inline-block;
+  width: 80%;
+}
+
+.EditorNy1Vice > div span {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  line-height: 3rem;
+  text-align: center;
+  /*transform: skew(-10deg);*/
+  margin-left: 1rem;
+  background: #e8323f;
+  color: #fff;
+  float: left;
+}
+
+.dashedEditorMod .el-input__inner {
+  border: 2px dashed #ccc;
+}
+
+.EditorNy1Vice > div .EditorNy1ViceContain {
+  float: left;
+  width: 90%;
+  margin-left: 1%;
+}
+
+.EditorNy1Vice .el-input__inner {
+  height: 7.5rem;
+}
+
+.EditorNY-top, .EditorNY-bottom {
+  position: relative;
+  width: 100%;
+  height: 48%;
+}
+
+.EditorNY .EditorIntroduction {
+  text-align: center;
+  position: relative;
+  top: 2rem;
+  z-index: 1;
+}
+
+.EditorIntroduction .el-input__inner {
+  padding: 0;
+}
+
+.EditorIntroductionbottom {
+  width: 85%;
+  position: absolute;
+  left: 50%;
+  top: 12%;
+  transform: translate(-50%, 0);
+}
+
+.EditorIntroductiontop {
+  width: 85%;
+  position: absolute;
+  left: 50%;
+  top: 8.5rem;
+  transform: translate(-50%, 0);
+}
+
+.EditorIntroductionbottom .el-input__inner {
+  width: 100%;
+}
+
+.EditorNY-top-contain, .EditorNY-bottom-contain {
+  width: 100%;
+  height: 100%;
+  padding: 8rem 4rem 0 4rem;
+  box-sizing: border-box;
+}
+
+.peopleSum {
+  width: 82%;
+  height: 5.5rem;
+  line-height: 5.3rem;
+  font-size: 28px;
+  color: #d61928;
+  margin: 0rem 4rem;
+  margin-top: 2rem;
+  text-align: center;
+  /*border:4px dashed #f7d758;*/
+  background-color: #fcf3d0;
+  background: url("http://www.v-data.com.cn/assets/images/NewYearChildBG.png") center no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.right-people {
+  width: 50%;
+  margin-top: 4rem;
+  float: left;
+}
+
+.EditorNY-top-contain .right-people .el-input__inner {
+  width: 100%;
+}
+
+.EditorNY-top-contain .right-people li {
+  float: left;
+  font-size: 16px;
+  margin-top: 2rem;
+}
+
+.EditorNY-top-contain .right-people li:nth-child(2) {
+  margin-top: 1.4rem;
+}
+
+.EditorNY-top-contain .right-people li .el-input__inner {
+  color: #d61928;
+  font-size: 1.8rem;
+}
+
+.EditorNY-top-contain .right-people li .el-input {
+  width: 10rem;
+}
+
+.left-people {
+  width: 25rem;
+  height: 25rem;
+  margin-top: -2rem;
+  margin-left: 0rem;
+}
+
+.EditorNy3TopBar {
+  width: 3rem;
+  height: 25rem;
+  background-color: #ccc;
+  position: relative;
+  margin-left: 1rem;
+
+}
+
+.EditorNy3TopBar:nth-child(1) {
+  margin-left: 1rem;
+}
+
+.EditorNy3TopBar > div {
+  background-color: #ea6000;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.EditorNy3TopBar:nth-child(2n) > div {
+  background-color: #f8b62d;
+}
+
+.EditorNy3TopBar > div > p {
+  text-align: center;
+}
+
+.EditorNy3TopBar > div p:nth-child(1) {
+  display: inline-block;
+  position: relative;
+  /*left: -50%;*/
+  top: -2rem;
+}
+
+.EditorNy3TopBar > div p:nth-child(2) {
+  width: 4rem;
+  position: absolute;
+  bottom: -2rem;
+  font-size: 12px;
+  margin-left: -18%;
+}
+
+.EditorNy3BottomBar > div {
+  height: 2rem;
+  margin-top: 0.5rem;
+  margin-left: 6rem;
+  border-radius: 5px;
+  font-size: 18px;
+  background-color: #f8b62d;
+  position: relative;
+}
+
+.EditorNy3BottomBar > div p {
+  display: inline-block;
+  line-height: 2rem;
+}
+
+.EditorNy3BottomBar > div p:nth-child(1) {
+  position: absolute;
+  left: -6rem;
+  width: 7rem;
+}
+
+.EditorNy3BottomBar > div p:nth-child(2) {
+  position: absolute;
+  right: -3rem;
+}
+
+.NewYearSexbg {
+  width: 100%;
+  height: 28rem;
+  position: relative;
+  background: url("http://www.v-data.com.cn/assets/images/NewYearSexbg.png") center no-repeat;
+  background-size: 110%;
+}
+
+.preview .NewYearSexbg {
+  -webkit-background-size: 110%;
+  background-size: 110%;
+}
+
+.NewYearSexbg p {
+  width: 90px;
+  height: 90px;
+  line-height: 90px;
+  border-radius: 45px;
+  text-align: center;
+  overflow: hidden;
+  color: #fff;
+  position: absolute;
+}
+
+.NewYearSexbg p:nth-child(2n) {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 3rem;
+}
+
+.NewYearSexbg p:nth-child(1) {
+  left: 33%;
+  top: 18%;
+}
+
+.NewYearSexbg p:nth-child(2) {
+  left: 29.5%;
+  top: 53%;
+}
+
+.NewYearSexbg p:nth-child(3) {
+  left: 80%;
+  top: 17%;
+}
+
+.NewYearSexbg p:nth-child(4) {
+  left: 74.5%;
+  top: 53%;
+}
+
+.preview .NewYearSexbg p:nth-child(1) {
+  left: 31.5%;
+  top: 11%;
+  width: 9.5rem;
+  height: 9.5rem;
+  line-height: 9.5rem;
+}
+
+.preview .NewYearSexbg p:nth-child(2) {
+  left: 26%;
+  top: 49%;
+  width: 6rem;
+  height: 6rem;
+  line-height: 6rem;
+}
+
+.preview .NewYearSexbg p:nth-child(3) {
+  left: 79.5%;
+  top: 11%;
+  width: 9.5rem;
+  height: 9.5rem;
+  line-height: 9.5rem;
+}
+
+.preview .NewYearSexbg p:nth-child(4) {
+  left: 74%;
+  top: 50%;
+  width: 6rem;
+  height: 6rem;
+  line-height: 6rem;
+}
+
+.NewYearStayTime ul {
+  width: 100%;
+}
+
+.NewYearStayTime ul li {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.NewYearStayTime:nth-child(1) ul li:nth-child(-n+2) {
+  background-color: #ef1a24;
+}
+
+.NewYearStayTime:nth-child(2) ul li:nth-child(-n+2) {
+  background-color: #31b4a7;
+}
+
+.NewYearStayTime:nth-child(3) ul li:nth-child(-n+2) {
+  background-color: #fbc600;
+}
+
+.NewYearStayTime:nth-child(4) ul li:nth-child(-n+2) {
+  background-color: #898acb;
+}
+
+.NewYearStayTime:nth-child(5) ul li:nth-child(-n+2) {
+  background-color: #ea6000;
+}
+
+.NewYearStayTime:nth-child(1) ul li:nth-child(3) {
+  background: url("http://www.v-data.com.cn/assets/images/NewYearStayTimeIcon1.png") center no-repeat;
+  -webkit-background-size: 133%;
+  background-size: 133%;
+}
+
+.NewYearStayTime:nth-child(2) ul li:nth-child(3) {
+  background: url("http://www.v-data.com.cn/assets/images/NewYearStayTimeIcon2.png") center no-repeat;
+  -webkit-background-size: 133%;
+  background-size: 133%;
+}
+
+.NewYearStayTime:nth-child(3) ul li:nth-child(3) {
+  background: url("http://www.v-data.com.cn/assets/images/NewYearStayTimeIcon3.png") center no-repeat;
+  -webkit-background-size: 133%;
+  background-size: 133%;
+}
+
+.NewYearStayTime:nth-child(4) ul li:nth-child(3) {
+  background: url("http://www.v-data.com.cn/assets/images/NewYearStayTimeIcon4.png") center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100% 100%;
+}
+
+.NewYearStayTime:nth-child(5) ul li:nth-child(3) {
+  background: url("http://www.v-data.com.cn/assets/images/NewYearStayTimeIcon5.png") center no-repeat;
+  -webkit-background-size: 100%;
+  background-size: 100% 100%;
+}
+
+.NewYearStayTime ul li:nth-child(1) {
+  width: 30%;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  font-size: 18px;
+  margin-right: 1rem;
+}
+
+.NewYearStayTime:nth-child(1) ul li:nth-child(2) {
+  width: 7rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #fff;
+  margin-right: 1rem;
+  background-image: url("http://www.v-data.com.cn/assets/images/nyst.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #ef1a24;
+}
+
+.NewYearStayTime:nth-child(2) ul li:nth-child(2) {
+  width: 7rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #fff;
+  margin-right: 1rem;
+  background-image: url("http://www.v-data.com.cn/assets/images/nyst.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #31b4a7;
+}
+
+.NewYearStayTime:nth-child(3) ul li:nth-child(2) {
+  width: 7rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #fff;
+  margin-right: 1rem;
+  background-image: url("http://www.v-data.com.cn/assets/images/nyst.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #fbc600;
+}
+
+.NewYearStayTime:nth-child(4) ul li:nth-child(2) {
+  width: 7rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #fff;
+  margin-right: 1rem;
+  background: url("http://www.v-data.com.cn/assets/images/NewYearStayTimebg4.png");
+}
+
+.NewYearStayTime:nth-child(5) ul li:nth-child(2) {
+  width: 7rem;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #fff;
+  margin-right: 1rem;
+  background: url("http://www.v-data.com.cn/assets/images/NewYearStayTimebg3.png");
+}
+
+.NewYearStayTime ul li:nth-child(3) {
+  width: 7rem;
+  height: 6rem;
+  line-height: 6rem;
+  text-align: center;
+  color: #fff;
+  /*margin-right: 1rem;*/
+  position: relative;
+  bottom: 7px;
+}
+
+.EditorNy14BottomBar {
+  width: 85%;
+  height: 1.8rem;
+  margin-top: 0.5rem;
+  font-size: 18px;
+  margin-left: 3rem;
+  background-color: #ccc;
+}
+
+.EditorNy14BottomBarCopy {
+  width: 85%;
+  height: 1.8rem;
+  line-height: 1.8rem;
+  margin-top: 0.5rem;
+  font-size: 18px;
+  margin-left: 8%;
+  background-color: #ccc;
+}
+
+.EditorNy14BottomBar > div {
+  height: 1.8rem;
+  line-height: 1.8rem;
+  float: left;
+  background-color: #e95412;
+  position: relative;
+}
+
+.EditorNy14BottomBarCopy > div {
+  height: 1.8rem;
+  line-height: 1.8rem;
+  float: left;
+  background-color: #e95412;
+  position: relative;
+}
+
+.EditorNy14BottomBar:nth-child(odd) > div {
+  background-color: #f9b72c;
+}
+
+.EditorNy14BottomBarCopy:nth-child(odd) > div {
+  background-color: #f8b62d;
+}
+
+.EditorNy14BottomBar > div p:nth-child(1) {
+  position: absolute;
+  left: -0.1rem;
+  color: #f8b62d;
+  width: 1.8rem;
+  height: 1.8rem;
+  text-align: left;
+  padding-left: 2px;
+  line-height: 1.9rem;
+  /*border-radius: 50%;*/
+  font-size: 1.4rem;
+  border-left: 1px solid #f8b62d;
+  background: url(http://www.v-data.com.cn/assets/images/triangle.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.EditorNy14BottomBarCopy > div p:nth-child(1) {
+  position: absolute;
+  left: 0rem;
+  color: #595757;
+  font-size: 14px;
+  width: 1.8rem;
+  height: 1.8rem;
+  text-align: left;
+  padding-left: 1px;
+  line-height: 1.8rem;
+  /*border-radius: 50%;*/
+  /*border-left: 1px solid #f8b62d;*/
+  /*background-color: #fff;*/
+  background: url(http://www.v-data.com.cn/assets/images/triangle.png) no-repeat;
+  background-size: 100% 100%;
+}
+
+.EditorNy14BottomBar:nth-child(odd) > div p:nth-child(1) {
+  border-left: 1px solid #e8323f;
+}
+
+.EditorNy14BottomBarCopy:nth-child(odd) > div p:nth-child(1) {
+  /*border-left: 1px solid #e8323f;*/
+}
+
+.EditorNy14BottomBar:nth-child(odd) > div p:nth-child(1) {
+  color: #e8323f;
+}
+
+.EditorNy14BottomBarCopy:nth-child(odd) > div p:nth-child(1) {
+  color: #595757;
+}
+
+.EditorNy14BottomBar > div p:nth-child(2) {
+  position: absolute;
+  left: 2rem;
+  overflow: hidden;
+  /*width: 6rem;*/
+  white-space: nowrap;
+  line-height: 1.9rem;
+  color: #fff;
+}
+
+.EditorNy14BottomBarCopy > div p:nth-child(3) {
+  position: absolute;
+  right: -6rem;
+  line-height: 1.8rem;
+  font-size: 16px;
+}
+
+.EditorNy14BottomBarCopy > div p:nth-child(4) {
+  position: absolute;
+  right: -1rem;
+  width: 3rem;
+  height: 3rem;
+  top: -0.5rem;
+  background: url("http://www.v-data.com.cn/assets/images/greentime.png") center no-repeat;
+}
+
+.EditorNy14BottomBarCopy:nth-child(odd) > div p:nth-child(4) {
+  position: absolute;
+  right: -1rem;
+  width: 3rem;
+  height: 3rem;
+  top: -0.5rem;
+  background: url("http://www.v-data.com.cn/assets/images/syellow.png") center no-repeat;
+}
+
+.EditorNy14BottomBarCopy > div p:nth-child(2) {
+  position: absolute;
+  left: 3rem;
+  line-height: 1.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #fff;
+}
+.EditorNy14BottomBarCopy > div:nth-child(1) p:nth-child(2) {
+  line-height: 1.9rem;
+}
+.EditorNy14BottomBar > div p:nth-child(3) {
+  position: absolute;
+  right: -6rem;
+}
+
+.EditorNY-top-contain .tourimName {
+  height: 2rem;
+  position: absolute;
+  top: 82%;
+  left: 12.5rem;
+}
+
+.preview .EditorNY-top-contain .tourimName {
+  height: 2rem;
+  position: absolute;
+  top: 95%;
+  left: 17.6rem;
+}
+
+.EditorNY-top-contain .tourimtu {
+  width: 86%;
+  height: 19.4rem;
+  position: absolute;
+  top: 18%;
+  background: url("http://www.v-data.com.cn/assets/images/tourimpic.png") center no-repeat;
+}
+
+.EditorNY-top-contain .tourimName > div {
+  float: left;
+  width: 3.6rem;
+  text-align: center;
+  overflow: hidden;
+  /*white-space: nowrap;*/
+  margin-left: 1.5rem;
+}
+
+.EditorNY-top-contain .tourimName > div:nth-child(1) {
+  color: #e83828;
+  margin-left: -0.5rem;
+}
+
+.EditorNY-top-contain .tourimName > div:nth-child(2) {
+  color: #898acb;
+}
+
+.EditorNY-top-contain .tourimName > div:nth-child(3) {
+  color: #f8b62d;
+}
+
+.EditorNY-top-contain .tourimName > div:nth-child(4) {
+  color: #888888;
+}
+
+.EditorNY-top-contain .tourimName > div:nth-child(5) {
+  color: #9e9e9f;
+}
+
+.EditorNY-top-contain .tourimName > div:nth-child(6) {
+  color: #b4b4b5;
+}
+
+.EditorNY-top-contain .tourimName > div:nth-child(7) {
+  color: #c8c9ca;
+}
+
+.EditorNY-top-contain > p {
+  margin-top: -1rem;
+  margin-left: 2rem;
+}
+
+.EditorNY-bottom-contain > p {
+  margin-top: -1rem;
+  margin-left: 2rem;
+}
+
+.EditorMod-bottom .tourimcitytu {
+  top: 3%;
+}
+
+.tourimcitytu {
+  color: #fff;
+  width: 88%;
+  height: 29rem;
+  position: absolute;
+  top: 7%;
+  /*left: 50%;*/
+  /*transform: translate(-50%,0);*/
+  background: url("http://www.v-data.com.cn/assets/images/tourimcity_top.png") center no-repeat;
+  background-size: 82%;
+}
+
+.tourimcitytubo {
+  /*margin-left: 2.5rem;*/
+  color: #fff;
+  width: 88%;
+  height: 22.2rem;
+  position: absolute;
+  top: 9%;
+  background: url("http://www.v-data.com.cn/assets/images/tourimcitytubo.png") center no-repeat;
+  background-size: 83%;
+  margin-top: 3rem;
+}
+
+.tourimcitytu .tourimtop {
+  width: 6.2rem;
+  position: absolute;
+  height: 5.2rem;
+  line-height: 5.2rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  whit-space: nowrap;
+  font-size: 14px;
+  text-align: center;
+}
+
+.tourimcitytu .tourimtop .pLineHeight {
+  width: 6.2rem;
+  line-height: 2rem;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.tourimcitytu .tourimtop:nth-child(1) {
+  top: 10rem;
+  left: 15.8rem;
+}
+
+.tourimcitytu .tourimtop:nth-child(2) {
+  top: 10rem;
+  left: 23.3rem;
+}
+
+.tourimcitytu .tourimtop:nth-child(3) {
+  top: 20.5rem;
+  left: 4.5rem;
+}
+
+.tourimcitytu .tourimtop:nth-child(4) {
+  top: 20.5rem;
+  left: 12.5rem;
+}
+
+.tourimcitytu .tourimtop:nth-child(5) {
+  top: 20.5rem;
+  left: 26.5rem;
+}
+
+.tourimcitytu .tourimtop:nth-child(6) {
+  top: 20.5rem;
+  left: 34.5rem;
+}
+
+.preview .tourimcitytu .tourimtop:nth-child(1) {
+  top: 33%;
+  left: 36%;
+}
+
+.preview .tourimcitytu .tourimtop:nth-child(2) {
+  top: 33%;
+  left: 54%;
+}
+
+.preview .EditorMod-bottom .tourimcitytu {
+  background-size: 81%;
+}
+
+.preview .EditorMod-bottom .tourimcitytu .tourimtop:nth-child(1) {
+  top: 33%;
+  left: 36%;
+}
+
+.preview .EditorMod-bottom .tourimcitytu .tourimtop:nth-child(2) {
+  top: 33%;
+  left: 54%;
+}
+
+.preview .EditorMod-bottom .tourimcitytu .tourimtop:nth-child(3) {
+  top: 74%;
+  left: 12%;
+}
+
+.preview .EditorMod-bottom .tourimcitytu .tourimtop:nth-child(4) {
+  top: 74%;
+  left: 29%;
+}
+
+.preview .EditorMod-bottom .tourimcitytu .tourimtop:nth-child(5) {
+  top: 74%;
+  left: 60%;
+}
+
+.preview .EditorMod-bottom .tourimcitytu .tourimtop:nth-child(6) {
+  top: 74%;
+  left: 78%;
+}
+
+.preview .EditorMod-top .tourimcitytu .tourimtop:nth-child(3) {
+  top: 75%;
+  left: 12%;
+}
+
+.preview .EditorMod-top .tourimcitytu .tourimtop:nth-child(4) {
+  top: 75%;
+  left: 29%;
+}
+
+.preview .tourimcitytu .tourimtop:nth-child(5) {
+  top: 75%;
+  left: 60%;
+}
+
+.preview .tourimcitytu .tourimtop:nth-child(6) {
+  top: 75%;
+  left: 78%;
+}
+
+.preview .tourimbot:nth-child(1) {
+  top: 15%;
+  left: 10.6%;
+}
+
+.preview .tourimbot:nth-child(2) {
+  left: 10.6%;
+  top: 10rem;
+}
+
+.preview .tourimbot:nth-child(3) {
+  left: 10.6%;
+  top: 16.5rem;
+}
+
+.preview .tourimbot:nth-child(4) {
+  left: 39.5%;
+  top: 15%;
+}
+
+.preview .tourimbot:nth-child(5) {
+  left: 39.5%;
+  top: 10rem;
+}
+
+.preview .tourimbot:nth-child(6) {
+  left: 39.5%;
+  top: 16.5rem;
+}
+
+.preview .tourimbot:nth-child(7) {
+  left: 68%;
+  top: 15%;
+}
+
+.preview .tourimbot:nth-child(8) {
+  left: 68%;
+  top: 10rem;
+}
+
+.preview .tourimbot:nth-child(9) {
+  left: 68%;
+  top: 16.5rem;
+}
+
+.tourimbot:nth-child(1) {
+  top: 4.6rem;
+  left: 3.9rem;
+}
+
+.tourimbot:nth-child(2) {
+  left: 3.9rem;
+  top: 9.9rem;
+}
+
+.tourimbot:nth-child(3) {
+  left: 3.9rem;
+  top: 15.2rem;
+}
+
+.tourimbot:nth-child(4) {
+  left: 16.8rem;
+  top: 4.6rem;
+}
+
+.tourimbot:nth-child(5) {
+  left: 16.8rem;
+  top: 9.9rem;
+}
+
+.tourimbot:nth-child(6) {
+  left: 16.8rem;
+  top: 15.2rem;
+}
+
+.tourimbot:nth-child(7) {
+  left: 29.5rem;
+  top: 4.6rem;
+}
+
+.tourimbot:nth-child(8) {
+  left: 29.5rem;
+  top: 9.9rem;
+}
+
+.tourimbot:nth-child(9) {
+  left: 29.5rem;
+  top: 15.2rem;
+}
+
+.tourimbot {
+  width: 11.3rem;
+  height: 4rem;
+  position: absolute;
+  text-align: center;
+  font-size: 18px;
+  display: table;
+}
+
+.zhanbi {
+  width: 86%;
+  height: 25rem;
+}
+
+.scenicPie {
+  margin-left: 4rem;
+  width: 86%;
+  height: 25rem;
+  margin-top: 4rem;
+}
+
+.bridge {
+  width: 10rem;
+  height: 9rem;
+  position: absolute;
+  top: 23.7rem;
+  left: 24.2rem;
+  background-image: url("http://www.v-data.com.cn/assets/images/bridge.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#staylong {
+  background-image: url("http://www.v-data.com.cn/assets/images/block_red.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  width: 2rem;
+  height: 2rem;
+}
+
+#EditorNy11 .EditorNy14BottomBar:nth-child(even) > div #staylong {
+  background-image: url("http://www.v-data.com.cn/assets/images/clock_yellow.png") !important;;
+
+}
+
+.tourimhome {
+  width: 86%;
+  height: 28rem;
+  border: 1px solid red;
+}
+
+.preview #EditorMod3 .EditorMod-top .EditorIntroduction {
+  margin-top: -4rem;
+}
+
+.EditorIntroductionTextarea {
+  font-size: 18px;
+}
+
+.EditorMod-bottom .EditorMod-top-contain {
+  margin-top: 6rem;
+}
+
+.EditorNyListChild {
+  width: 50%;
+  height: 3rem;
+  line-height: 3rem;
+  display: inline-block;
+  margin-left: 8rem;
+  margin-top: 3rem;
+  background: #efe5ce;
+  border-radius: 8px;
+}
+
+.EditorNyListChild:nth-child(1) {
+  margin-top: 12rem;
+}
+
+.EditorNyListChildNub {
+  display: inline-block;
+  width: 3rem;
+  height: 3rem;
+  float: left;
+  margin-left: -1.5rem;
+  border-radius: 1.5rem;
+  border: 2px solid #fff;
+  box-sizing: border-box;
+  color: #fff;
+  background: #ea5514;
+}
+
+.EditorNyListChild .list-input {
+  width: 93%;
+  text-align: left;
+}
+
+.peopleSum p {
+  font-size: 26px;
+  color: #d75648;
+}
+
+.peopleSum p span {
+  font-size: 30px;
+  color: #d75648;
+}
+
+.right-people li {
+  font-size: 18px;
+  color: #595757;
+  height: 6rem;
+  line-height: 6rem
+}
+
+.right-people li span {
+  font-size: 30px;
+  color: #cf2a41;
+}
+
+.barChartCustomized {
+  width: 10rem;
+  height: 20rem;
+  background: url(http://www.v-data.com.cn/assets/images/ren.png) no-repeat;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+  -webkit-background-size: 100%;
+  background-size: 100%;
+}
+
+.barChartCustomizedCopy {
+  width: 10rem;
+  height: 20rem;
+  background: url(http://www.v-data.com.cn/assets/images/ren1.png) no-repeat;
+  position: absolute;
+  background-size: 100%;
+  right: 1rem;
+  bottom: 1rem;
+  z-index: 1000;
+}
+
+.preview .changeBig {
+  height: 30rem !important;
+}
+
+.preview #EditorMod12 .EditorNY-top-contain .tourimtu {
+  height: 28rem;
+}
+
+.preview #EditorMod4 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 5rem;
+}
+
+.preview #EditorMod4 .EditorMod-top .EditorMod-top-contain .EditorIntroduction p {
+  margin-bottom: 4rem !important;
+  margin-top: 3rem;
+}
+
+.preview #EditorMod4 .EditorMod-bottom .EditorMod-top-contain {
+  margin-top: 6rem;
+}
+
+.preview #EditorMod5 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 7rem;
+  text-align: center;
+}
+
+.preview #EditorMod5 .EditorMod-bottom .EditorMod-top-contain {
+  margin-top: 4rem;
+}
+
+.preview #EditorMod6 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 6rem;
+}
+
+.preview #EditorMod6 .EditorMod-bottom .EditorMod-top-contain {
+  margin-top: 4rem;
+}
+
+.preview #EditorMod7 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 8rem;
+}
+
+.preview #EditorMod7 .EditorMod-top .EditorMod-top-contain .EditorIntroduction {
+  margin-bottom: 6rem !important;
+}
+
+.preview #EditorMod7 .EditorMod-bottom .EditorMod-top-contain {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.preview #EditorMod7 .EditorMod-bottom .EditorMod-top-contain .EditorIntroduction p {
+  margin-bottom: 4rem !important;
+}
+
+.preview #EditorMod8 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 6rem !important;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod8 .EditorMod-bottom .EditorMod-top-contain {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem;
+}
+
+.preview #EditorMod9 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 6rem !important;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod9 .EditorMod-bottom .EditorMod-top-contain {
+  margin-top: 4rem !important;
+  margin-bottom: 4rem;
+}
+
+.preview #EditorMod10 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod10 .EditorMod-bottom .EditorMod-top-contain .EditorIntroduction p {
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod11 .EditorMod-top .EditorMod-top-contain .EditorIntroduction p {
+  margin-top: 0rem;
+  padding-left: 2rem;
+}
+
+.preview #EditorMod11 .EditorMod-bottom .EditorMod-top-contain .EditorIntroduction p {
+  margin-top: 0rem;
+  padding-left: 2rem;
+}
+
+.preview #EditorMod11 .EditorMod-bottom .EditorMod-top-contain {
+  margin-top: -4rem;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod12 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod12 .EditorMod-bottom .EditorMod-top-contain {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod13 .EditorMod-top .EditorMod-top-contain .EditorIntroduction p {
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod13 .EditorMod-bottom .EditorMod-top-contain .EditorIntroduction p {
+  margin-top: -1rem !important;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod14 .EditorMod-top .EditorMod-top-contain {
+  margin-top: 6rem;
+}
+
+.preview #EditorMod14 .EditorMod-top .EditorMod-top-contain .EditorIntroduction p {
+  margin-top: 2rem;
+  padding-left: 3rem !important;
+  margin-bottom: 2rem;
+}
+
+.preview #EditorMod14 .EditorMod-bottom .EditorMod-top-contain .EditorIntroduction p {
+  top: -3rem !important;
+  padding-left: 3rem !important;
+  margin-bottom: 2rem;
+}
+
+.transformBox .el-transfer-panel {
+  width: 22rem;
+}
+
+#EditorMod16 {
+  background: url("http://www.v-data.com.cn/assets/images/addbg.png") center no-repeat;
+  background-size: 105% 100%;
+}
+.preview #EditorMod16 {
+  background: url("http://www.v-data.com.cn/assets/images/addbg.png") center no-repeat;
+  background-size: 100% 100%;
+}
+/*.preview .EditorMod-top .three-name p:nth-child(2){*/
+  /*top: 32rem;*/
+/*}*/
+/*.preview .EditorMod-top .leftborderOne.yAxis{*/
+  /*top: 32% !important;*/
+/*}*/
