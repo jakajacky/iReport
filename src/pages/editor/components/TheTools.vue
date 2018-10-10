@@ -72,10 +72,10 @@ export default {
           this.$store.dispatch('addNewComp', name)
           break
         case 'Image':
-          this.$refs.iDialogImgOpen.showDialog(name)
+          this.$refs.iDialogImgOpen.showAddDialog(name)
           break
         case 'BackgroundImage':
-          this.$refs.iDialogImgOpen.showDialog(name)
+          this.$refs.iDialogImgOpen.showAddDialog(name)
           break
         default:
           break

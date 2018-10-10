@@ -39,7 +39,7 @@
                 </li>
               </template>
             </ul>
-            <ul v-if="operationFlag==='Image'">
+            <ul v-if="operationFlag==='Image' || operationFlag==='UpdateImages'">
               <template v-for="item in iconList">
                 <li :key="item.id" @click="selectImage(item)" style="height: 24vh;border: 1px solid #c8c9ca">
                   <div class="item-bg-images" :style="{backgroundImage: 'url(' + item.url + ')'}">
@@ -117,6 +117,10 @@ export default {
     // 取当前页面
     curPage () {
       return this.$store.getters.curPage
+    },
+    // 取当前组件
+    currComp () {
+      return this.$store.getters.curComp
     }
   },
   methods: {
@@ -124,8 +128,8 @@ export default {
     closeDialog () {
       this.dialogVisible = false
     },
-    // 打开弹出框
-    showDialog (flag) {
+    // 新增图片/背景图增弹出框
+    showAddDialog (flag) {
       this.operationFlag = flag
       switch (flag) {
         case 'Image':
@@ -137,6 +141,12 @@ export default {
         default:
           break
       }
+      this.dialogVisible = true
+    },
+    // 编辑图片/背景图增弹出框
+    showEditDialog () {
+      this.title = '修改图标'
+      this.operationFlag = 'UpdateImages'
       this.dialogVisible = true
     },
     // 取消图片选中
@@ -154,6 +164,9 @@ export default {
         case 'BackgroundImage':
           this.updateCurPageBackgroundImage(this.imageSelectItem)
           break
+        case 'UpdateImages':
+          this.updateProps()
+          break
         default:
           break
       }
@@ -167,6 +180,13 @@ export default {
     // 添加图片
     handleAddImageComponent (item) {
       this.$store.dispatch('addNewCompByParams', { name: 'Image', url: item.url })
+    },
+    // 编辑图片组件
+    updateProps () {
+      this.$store.dispatch('editComp', {
+        type: 'props',
+        value: { 'url': this.imageSelectItem.url }
+      })
     },
     // 设置当前页面背景
     updateCurPageBackgroundImage (item) {
