@@ -1,7 +1,5 @@
 import types from '../constTypes.js'
-import {
-  getNewComp
-} from '../function.js'
+import { getNewComp, getRandomId } from '../function.js'
 
 const BASE_COMP_SUFFIX = 'Data'
 const state = {
@@ -148,6 +146,19 @@ const actions = {
     commit(types.EDIT_COMP, {
       type, value, compId
     })
+  },
+  // 拷贝指定组件
+  copyComp ({ commit, getters }, compId) {
+    let id = getRandomId()
+    if (id) {
+      let compData = getters.curPage.comps.find(_x => _x.id === compId)
+      let newCompData = Object.assign(compData, {
+        parentId: getters.curPageId
+      })
+      commit(types.ADD_COMP_TO_PAGES, newCompData)
+      commit(types.ADD_COMPONENT, newCompData)
+    }
+    return id
   },
   // 删除指定组件
   removeComp ({ commit }, compId) {

@@ -1,7 +1,6 @@
 <!--region 图层设置面板-->
 <template>
-  <div ref="layerManagerPanel" class="the-comp-layer-manager-page" v-if="layerPanel && layerPanel.show"
-       style="height: 256px">
+  <div ref="layerManagerPanel" class="the-comp-layer-manager-page" v-if="layerPanel && layerPanel.show">
     <div :class="isMouseDown ? 'header pointer-events': 'header'">
       <div class="title" ref="header" @mousedown="handleDragMouseDown">图层设置</div>
       <div class="close">
@@ -11,6 +10,7 @@
     <div class="layer-panel-list">
       <ul>
         <li @click="handRemove">删除组件</li>
+        <li @click="handleCopyComp">拷贝组件</li>
         <!---图层显示依据数组的降序排练--关于图层数据的操作要反过来-->
         <li @click="handleSwapItem('down')">上移一层</li>
         <li @click="handleSwapItem('up')">下移一层</li>
@@ -77,6 +77,10 @@ export default {
       this.$store.dispatch('removeComponentToPage', compId)
       // 关闭图层面板
       this.$store.dispatch('closeLayerPanel')
+    },
+    // 拷贝当前组件
+    handleCopyComp () {
+      this.$store.dispatch('copyComp', this.curCompId)
     },
     // 交换数组元素
     handleSwapItem (operateName) {
@@ -151,7 +155,7 @@ export default {
   overflow: hidden;
   box-shadow: 0 0 16px rgba(0, 0, 0, 0.16);
   z-index: 1000;
-  height: 100%;
+  height: 286px;
   user-select: none;
   box-sizing: content-box;
   .header {

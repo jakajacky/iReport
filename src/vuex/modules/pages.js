@@ -49,9 +49,9 @@ const mutations = {
     }
   },
   // 拷贝页面
-  [types.COPY_PAGE] (state, { pageData, pageId }) {
+  [types.COPY_PAGE] (state, { prePageId, pageId }) {
     let list = state.list
-    let index = list.findIndex(_x => _x.id === pageId)
+    let index = list.findIndex(_x => _x.id === prePageId)
     if (index > -1) {
       // 复制一个新的页面JSON对象
       let pageData = deepCopy(list[index])
@@ -121,21 +121,6 @@ const actions = {
     const page = getNewPage()
     if (page) {
       commit(types.ADD_PAGE, page)
-    }
-    return page.id
-  },
-  /**
-   * 插入新页面
-   * @param commit
-   * @param prePageId 前一个页面的ID
-   */
-  insertPage ({ commit }, prePageId) {
-    let page = getNewPage()
-    if (page) {
-      commit(types.INSERT_PAGE, {
-        page,
-        pageId: prePageId
-      })
     }
     return page.id
   },

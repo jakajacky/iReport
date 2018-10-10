@@ -70,13 +70,17 @@ export default {
      * 创建新页面
      */
     handleAddPage () {
-      this.$store.dispatch('insertPage', this.curPageId)
+      this.$store.dispatch('addNewPages', this.curPageId).then((id) => {
+        this.handleTogglePage(id)
+      })
     },
     /**
      * 拷贝当前页面
      */
     handleCopyPage () {
-      this.$store.dispatch('copyPage', this.curPageId)
+      this.$store.dispatch('copyPage', this.curPageId).then((id) => {
+        this.handleTogglePage(id)
+      })
     },
     /**
      * 删除当前页面

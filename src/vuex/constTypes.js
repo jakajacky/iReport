@@ -2,6 +2,7 @@ export default {
   // 页面组件
   ADD_COMPONENT: 'add_component', // 添加组件
   TOGGLE_COMP: 'toggle_component', // 切换组件
+  COPY_COMP: 'copy_comp', // 拷贝组件
   EDIT_COMP: 'edit_component', // 编辑组件
   REMOVE_COMP: 'remove_component', // 删除组件
   // 页面
