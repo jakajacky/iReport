@@ -78,6 +78,7 @@ export default {
     this.getComponentId()
   },
   methods: {
+    handleColl (item) {},
     getComponentId () {
       this.componentId = this.currComp.props.componentId
     },

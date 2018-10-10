@@ -90,6 +90,10 @@ export default {
     chooseColorByPanel (val) {
       this.syncCss('css', val)
     },
+    // 文本框内容更新
+    updateProps () {
+      this.syncCss('props', { 'text': this.currComp.props['text'] })
+    },
     // 同步到持久化
     syncCss (type, val) {
       this.$store.dispatch('editComp', {

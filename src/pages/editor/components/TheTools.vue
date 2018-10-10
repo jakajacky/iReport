@@ -26,6 +26,8 @@
         </el-dropdown>
       </li>
     </ul>
+    <!--图片弹出框组件-->
+    <i-dialog-img  ref="iDialogImgOpen"></i-dialog-img>
     <!--region 操作按钮-->
     <el-row class="action-group">
       <el-button size="small" type="primary">预览</el-button>
@@ -42,9 +44,11 @@
 // import Bus from '../../../base/bus'.
 import Json from '../../../../static/json/tools'
 import ReportComponent from '../../../components/EChars/reportComponent'
-
+import iDialogImg from '../../../components/iDialogImg/Index'
 export default {
-  components: {},
+  components: {
+    iDialogImg
+  },
   data () {
     return {
       data: Json
@@ -61,16 +65,23 @@ export default {
     }
   },
   methods: {
-    /**
-     * 组件插入
-     */
+    // 组件插入
     handleAddComponent (name) {
-      this.$store.dispatch('addNewComp', name)
+      switch (name) {
+        case 'Text':
+          this.$store.dispatch('addNewComp', name)
+          break
+        case 'Image':
+          this.$refs.iDialogImgOpen.showDialog(name)
+          break
+        case 'BackgroundImage':
+          this.$refs.iDialogImgOpen.showDialog(name)
+          break
+        default:
+          break
+      }
     },
-    /**
-     * 添加EChars组件
-     * @param params
-     */
+    // 添加EChars组件
     handleAddECharsComponent (componentId) {
       var componentList = ReportComponent.reportComponentList
       // 根据componentId 获取配置信息

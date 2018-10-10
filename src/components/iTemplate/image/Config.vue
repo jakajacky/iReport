@@ -115,7 +115,7 @@ export default {
     openDialogImg () {
       this.openDialog = true
       console.log(this.$refs.iDialogImgOpen)
-      this.$refs.iDialogImgOpen.showDialog()
+      this.$refs.iDialogImgOpen.showDialog('背景')
     }
   }
 }
