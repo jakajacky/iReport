@@ -1,6 +1,6 @@
 import types from '../constTypes.js'
 import { getNewPageId, getNewPage } from '../function.js'
-import { deepCopy } from '../../assets/utils/util.js'
+import { cloneObj } from '../../assets/utils/util.js'
 
 const state = {
   list: [],
@@ -54,8 +54,15 @@ const mutations = {
     let index = list.findIndex(_x => _x.id === prePageId)
     if (index > -1) {
       // 复制一个新的页面JSON对象
-      let pageData = deepCopy(list[index])
+      let pageData = cloneObj(list[index])
       pageData.id = pageId
+      // 克隆的页面中组件处理
+      // if (pageData.comps && pageData.comps.length > 0) {
+      //   for (let i = 0; i < pageData.comps.length; i++) {
+      //     pageData.comps[i].id = pageData.comps[i].id + (i + 1) * pageData.comps[i].id
+      //     pageData.comps[i].parentId = pageId
+      //   }
+      // }
       list.splice(index + 1, 0, pageData)
       state.curPageId = pageId
     }

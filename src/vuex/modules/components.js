@@ -47,13 +47,20 @@ const mutations = {
     let component = state.list.find((_x) => _x.id === compId || _x.id === state.curCompId)
     if (component) {
       let compProp = component[type]
+      // 遍历value对象  key为对象的键值  如{obj:1,age:12}  则key第一为obj 第二次为 age
       for (let key in value) {
         if (!compProp[key] || !compProp[key].toString()) {
+          // 判断compProp对象是否有key这个键
+          // 如果没有则进入下一次循环
+          // 如果有 对compProp[key]对应的值进行字符串化 如果字符串化之后没有内容 进入下一次循环
           continue
         }
+        // 判断 value[key] 是否为对象 如果为对象则进入
         if (typeof value[key] === 'object') {
+          // 将value[key]的值完整复制到compProp[key]中 如果出现相同的.则覆盖compProp[key]
           Object.assign(compProp[key], value[key])
         } else {
+          // 如果不是对象 //直接将value[key]装载到compProp[key]
           compProp[key] = value[key]
         }
       }
